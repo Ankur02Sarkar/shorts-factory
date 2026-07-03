@@ -29,7 +29,7 @@ Add ClipPilot to `claude_desktop_config.json` (Windows: `%APPDATA%\Claude\claude
       "args": ["-m", "clippilot.mcp_server"],
       "env": {
         "PYTHONPATH": "C:\\Dikshant\\Money making\\ClipPilot\\src",
-        "ANTHROPIC_API_KEY": "sk-ant-...",
+        "ANTHROPIC_API_KEY": "<PASTE_YOUR_ANTHROPIC_API_KEY_HERE>",
         "CLIPPILOT_DATA": "C:\\Dikshant\\Money making\\ClipPilot\\data"
       }
     }

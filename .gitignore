@@ -1,4 +1,13 @@
 # ─────────────────────────────────────────────────────────────
+#  THIRD-PARTY APP INSTALLS WITH REAL FILLED-IN SECRETS — NEVER PUBLISH
+#  (a copy of the Postiz app landed in this working dir; its docker-compose
+#   holds the real GOCSPX client secret, DB password, JWT secret, etc.)
+# ─────────────────────────────────────────────────────────────
+auto posting tool/
+**/postiz-app-main/
+**/postiz-app-main
+
+# ─────────────────────────────────────────────────────────────
 #  SECRETS — never commit these (belt-and-suspenders; none are in the repo)
 # ─────────────────────────────────────────────────────────────
 .env

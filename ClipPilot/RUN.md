@@ -64,7 +64,7 @@ Add ClipPilot to Claude Desktop and Claude can enqueue, run, review, approve, pu
 
 ## 7. The Claude brain (optional but recommended)
 
-Put `ANTHROPIC_API_KEY=sk-ant-...` in `.env`. With it, Claude *watches* the keyframes to pick the best moments and writes real, topic-specific scripts/metadata. Without it, the app falls back to solid heuristics (speech-density highlights, template scripts) — still produces watchable output, just not as smart.
+Put `ANTHROPIC_API_KEY=<your-anthropic-key>` in `.env` (a real key starts `sk-ant-`). With it, Claude *watches* the keyframes to pick the best moments and writes real, topic-specific scripts/metadata. Without it, the app falls back to solid heuristics (speech-density highlights, template scripts) — still produces watchable output, just not as smart.
 
 ## Run the tests
 
